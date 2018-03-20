@@ -5,4 +5,6 @@
 3.  Edit result-display code and add this 
         include 'simple_patch.php';
         
+4.  Update your .htaccess with the provided one in this git.
+        
  
