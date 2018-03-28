@@ -1,6 +1,6 @@
 <?
 //put this at /public_html(same folder with index.php)
-if (ereg("%20union%20", $_
+if ( preg_match("%20union%20", $_
 GET['id'])|| preg_match("union",$_
 GET['id']) || preg_match("\*union\*",$_
 GET['id']) || preg_match("\+union\+",
